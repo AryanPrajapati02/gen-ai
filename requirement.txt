@@ -4,3 +4,5 @@ streamlit
 ipykernal
 langchain
 langchain-groq
+langchain-core
+
