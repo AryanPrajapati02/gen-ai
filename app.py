@@ -31,10 +31,9 @@ llm = ChatGroq(model='Gemma2-9b-It' , groq_api_key = groq_api_key)
 output_parser = StrOutputParser()
 chain = prompt|llm|output_parser
 
-if input_text:
-    if st.button("Generate Response"):
-     response = chain.invoke({"question": input_text})
-     st.write(response)
+if st.button("Generate Response"):
+ response = chain.invoke({"question": input_text})
+ st.write(response)
 
 
 

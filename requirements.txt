@@ -1,8 +1,8 @@
 langchain_community
 python-dotenv
 streamlit
-ipykernal
+
 langchain
 langchain-groq
-langchain-core
+langchain_core
 
